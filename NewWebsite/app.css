@@ -3,10 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgb(150, 35, 154);
+    
 }
 
 header {
-    background-color: #333;
+    background-color: rgb(150, 35, 154);
     color: #fff;
     text-align: center;
     padding: 0.5rem;
@@ -35,9 +37,10 @@ section {
 }
 
 .main-image {
-    width: 100%; /* Make the image take the full width of its container */
+    width: 90%; /* Make the image take the full width of its container */
     height: auto; /* Maintain aspect ratio */
     margin-top: -310px;
+    border: 10px solid white;
 
 }
 
@@ -58,7 +61,7 @@ nav a {
 }
 
 footer {
-    background-color: #333;
+    background-color: rgb(150, 35, 154);
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -68,25 +71,42 @@ footer {
 .Contact-section {
     background-color: #fff; /* White background */
     color: #000; /* Black text color */
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Black shadow for depth */
 
     /* Center the content */
     text-align: center;
+    
 }
+
+.Contact-section {
+    margin-top: 400px; /* Adjust the margin-top value to move the h1 further down */
+}
+
 
 /* Style links */
 .Contact-section a {
     color: #d4c6d4; /* Purple link color */
     text-decoration: none;
+   
 }
 
 /* Hover effect for links */
 .Contact-section a:hover {
     text-decoration: underline;
+    
 }
+
+.Contact-section {
+    
+    height: 50vh; /* Adjust the height as needed */
+}
+
+
+
+
 
 /* styles.css */
 .Service-section {
@@ -99,7 +119,7 @@ footer {
 }
 
 .Service-description {
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 .Service-description h3 {
@@ -114,5 +134,68 @@ footer {
 .Service-time {
     font-weight: bold;
     color: #333; /* Dark text color for date and time */
+}
+
+/* Adjust the height values to suit your design */
+img {
+    max-width: 80%; /* Set the maximum width to prevent the image from exceeding its container */
+    max-height: 80%; /* Set the maximum height to prevent the image from exceeding its container */
+    display: block; /* Remove extra spacing below the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+
+
+.Service-image {
+    max-width: 30%; /* Set the maximum width to prevent the image from exceeding its container */
+    max-height: 30%; /* Set the maximum height to prevent the image from exceeding its container */
+    display: 50px block; /* Remove extra spacing below the image */
+    margin: -220px auto;
+
+}
+.Service-container {
+    display: flex; /* Use flexbox for positioning */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.Service-image {
+    max-width: 100%; /* Adjust image size as needed */
+    margin-bottom: 20px; /* Add space between image and list */
+}
+
+.Service-list {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margin from the list */
+}
+
+.Service-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+/* styles.css */
+
+.Service-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Service-image {
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 10px solid white; /* Add a white border around the image */
+}
+
+.Service-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Service-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
 }
 
