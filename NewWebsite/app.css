@@ -37,7 +37,7 @@ section {
 }
 
 .main-image {
-    width: 90%; /* Make the image take the full width of its container */
+    width: 40%; /* Make the image take the full width of its container */
     height: auto; /* Maintain aspect ratio */
     margin-top: -310px;
     border: 10px solid white;
@@ -147,9 +147,9 @@ img {
 
 
 .Service-image {
-    max-width: 30%; /* Set the maximum width to prevent the image from exceeding its container */
-    max-height: 30%; /* Set the maximum height to prevent the image from exceeding its container */
-    display: 50px block; /* Remove extra spacing below the image */
+    max-width: 10%; /* Set the maximum width to prevent the image from exceeding its container */
+    max-height: 10%; /* Set the maximum height to prevent the image from exceeding its container */
+    display: 30px block; /* Remove extra spacing below the image */
     margin: -220px auto;
 
 }
@@ -158,10 +158,7 @@ img {
     flex-direction: column; /* Stack items vertically */
 }
 
-.Service-image {
-    max-width: 100%; /* Adjust image size as needed */
-    margin-bottom: 20px; /* Add space between image and list */
-}
+
 
 .Service-list {
     list-style: none;
@@ -182,7 +179,7 @@ img {
 }
 
 .Service-image {
-    max-width: 100%;
+    max-width: 40%;
     margin-bottom: 20px;
     border: 10px solid white; /* Add a white border around the image */
 }
