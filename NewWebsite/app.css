@@ -18,6 +18,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 100vh; 
+    text-decoration-line: underline;
 }
 
 nav ul {
@@ -37,9 +38,9 @@ section {
 }
 
 .main-image {
-    width: 30%; /* Make the image take the full width of its container */
+    width: 40%; /* Make the image take the full width of its container */
     height: auto; /* Maintain aspect ratio */
-    margin-top: -310px;
+    margin-top: -260px;
     border: 10px solid white;
 
 }
